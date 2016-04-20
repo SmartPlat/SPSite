@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>智慧软联</title>
+        <meta charset="utf-8" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+        <link rel="icon" href="./images/fang.png" />
+
+        <link href="./lib/bootstrap/bootstrap.css" rel="stylesheet"  type="text/css" />
+        <link href="./lib/dcSite.css?v=1.0" rel="stylesheet"  type="text/css" />
+        <script type="text/javascript" src="./lib/jquery-1.11.2.min.js"></script> 
+        <script type="text/javascript" src="./lib/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./lib/hilo/hilo-standalone.min.js"></script>
+
+        <script type="text/javascript" src="./Scripts/login.js?v=1.3"></script> 
+</head>
+<body>
+    <img src="images/bg.png"  style="display:none">
+
+        <div class="container">
+
+        <h2 style="text-align:center; margin:40px auto;">快乐作业</h2>
+        <%--<h2 style="text-align:center; margin:30px auto;"></h2>--%>
+        <div id="loginbox" class="LoginBox">
+      <form class="form-signin">
+        <label for="UserID">学号</label>
+        <input type="text" id="UserID" class="form-control" placeholder="请输入学号" required autofocus>
+        <label for="UserPassword">密码</label>
+        <input type="password" id="UserPassword" class="form-control" placeholder="请输入密码" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="SaveFlag" name="SaveFlag" style="margin-left:-20px;"> 记住帐号
+          </label>
+        </div>
+        <button class="btn btn-primary btn-block" type="button" id="btnOK" onClick="return login_submit();">进入作业</button>
+      </form>
+      <div id="footer" class="LoginFooter"></div>
+      大连智慧软联信息科技有限公司
+      </div>
+    </div> <!-- /container -->
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+body
+{background-image:url(../images/bg.png);
+}
+.MedaiMenu {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+@media (max-width: 768px) {
+  .img { width: 100%; }
+  .modal-dialog{margin:0px;}
+}
+
+/* 补充样式 */
+.footer {
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+  margin-top:10px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.footerfix {
+  width: 100%;
+  height: 48px;
+  position:fixed;
+  bottom:0;
+  padding-top: 0px;
+  margin-top:10px;
+  background-color: #f8f8f8;
+  text-align: center;
+  z-index: 10;
+}
+.LoginBox {
+   width:320px; height:80px; margin:10px auto; padding:10px 20px; overflow:hidden;
+}
+.LoginFooter {
+   margin-top:60px;color:#333;margin-left: 100px;width: 0px;height: 20px;overflow: hidden;
+}
+.TableTitle {
+   border-top:0px solid #000;border-left:0px solid #000;border-right:0px solid #000;
+}
+.MsgText {
+   font-size: 18px;line-height:1.5;
+}
+.autoheight{overflow-y:visible; max-height:300px;}
+/*移动样式*/
+@media (min-width: 768px) {
+  .mobilehide {
+      display: none;
+  }
+}
+@media (min-width: 992px) {
+  .mobilehide {
+     display: inherit;
+  }
+}
+@media (min-width: 1200px) {
+  .mobilehide {
+     display: inherit;
+  }
+}
+/*首页轮播样式*/
+
+.imgbox{width:500px;height:400px;margin:0px; margin: 100px auto; overflow:hidden;position: relative;}
+.imgbox img{width:500px;height:400px;border-style:none;}
+.imgbox ul{list-style-type:none;margin:0px;padding:0px;position:absolute;}
+.imgbox ul li{position: absolute;top:0px;float:left;}
+
+.pager{z-index:3;position: absolute;}
+.common{height:40px;margin-top:0px;}
+.pager ul{top:5px;left:200px;position:absolute;}
+.pager ul li{float:right;color:#FFF;font-size:15px;display:block;border:0px solid #99cc33;width:25px;height:25px;
+             margin-right:4px;margin-top:5px;text-align:center;line-height:25px;background-color:#000;cursor:pointer;
+}
+
+/**/
+.textanswer {
+  display: inline;
+  width: 100px;
+  min-width:60px;
+  height: 30px;
+  padding-left: 5px;
+  margin-left:3px; margin-right:3px;
+  font-size: 16px;
+  text-align:center;
+  line-height: 1.5;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+ 
